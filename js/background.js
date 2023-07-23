@@ -1,9 +1,9 @@
 const images = [
-  '../beautyofportugal/imgs/img01.jpg',
-  '../beautyofportugal/imgs/img02.jpg',
-  '../beautyofportugal/imgs/img03.jpg',
-  '../beautyofportugal/imgs/img04.jpg',
-  '../beautyofportugal/imgs/img05.jpg',
+  './imgs/img01.jpg',
+  './imgs/img02.jpg',
+  './imgs/img03.jpg',
+  './imgs/img04.jpg',
+  './imgs/img05.jpg',
 ];
 
 function chooseImage() {
