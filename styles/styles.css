@@ -6,12 +6,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: aliceblue;
 }
 
 form {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: aliceblue;
 }
 
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: aliceblue;
+}
 
+input[type="text"] {
+    font-size: 20px;
+    width: 300px;
+}
+
+#weather {
+    float: right;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+}

@@ -9,18 +9,15 @@ function loginFormSubmit(event) {
   const userName = loginInput.value;
   saveUserName(userName);
   paintGreeting(userName);
-  console.log('loginFormSubmit' + userName);
 }
 
 function saveUserName(userName) {
   localStorage.setItem('userName', userName);
-  console.log('saveUserName' + userName);
 }
 
 function paintGreeting(userName) {
   loginForm.innerHTML = `<h1>Welcome, ${userName}</h1>`;
   loginForm.classList.remove(HIDDEN_CLASSNAME);
-  console.log('saveUserName' + userName);
 }
 
 const savedUserName = localStorage.getItem('userName');
